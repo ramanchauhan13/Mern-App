@@ -45,7 +45,7 @@ function Home() {
 
   return (
     <div>
-      <h1>{loggedInUser}</h1>
+      <h1>HELLO Welcome! {loggedInUser}</h1>
       <button onClick={handleClick}>Logout</button>
       <div>
         {
