@@ -29,7 +29,7 @@ function Login() {
             return toastError('All fields are required');
         }
     try{
-        const url = 'http://localhost:8080/auth/login';
+        const url = 'https://mern-app-api-lyart.vercel.app/auth/login';
         const response = await fetch(url, {
             method: 'POST',
             headers: {
