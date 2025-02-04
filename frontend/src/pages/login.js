@@ -85,7 +85,7 @@ function Login() {
                 value={loginInfo.password} />
             </div>
             <button type="submit">Login</button>
-            <span>Dont have an account? <Link to='/signup'>Login</Link> </span>
+            <span>Dont have an account? <Link to='/signup'>Signup</Link> </span>
         </form>
         <ToastContainer />
     </div>
