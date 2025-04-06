@@ -8,11 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // CORS Middleware (FIXED)
-app.use(cors({
-  origin: 'https://mern-app-ui-nine.vercel.app',
-  methods: ['GET,POST,PUT,DELETE'],
-  credentials: true
-}));
+app.use(cors());
 
 app.use(express.json()); // Ensure JSON parsing before routes
 
