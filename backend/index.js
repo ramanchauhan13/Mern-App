@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8080;
 // CORS Middleware (FIXED)
 app.use(cors({
   origin: 'https://mern-app-ui-nine.vercel.app',
-  methods: 'GET,POST,PUT,DELETE',
+  methods: ['GET,POST,PUT,DELETE'],
   credentials: true
 }));
 
